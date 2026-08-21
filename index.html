@@ -5,37 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myntra Clone Project</title>
     <link rel="stylesheet" href="index.css" />
+    <!--  start search icon link  from google fonts  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
+    />
+    <!--  end search icon link  from google fonts  -->
+
+    <!-- start link for icon from font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--  link for icon from font awsome -->
   </head>
   <body>
     <!-- starting of header -->
     <header>
-        <!-- logo section -->
-         <div class="logo_container">
-            <a href="#"><img class="myntra_home" src="img/myntra-logo.png" alt="Myntra Home"></a>
+      <!-- logo section -->
+      <div class="logo_container">
+        <a href="#"
+          ><img class="myntra_home" src="img/myntra-logo.png" alt="Myntra Home"
+        /></a>
+      </div>
+
+      <!-- nav section -->
+      <div class="nav_bar">
+        <a href="#">Man</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home&Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio<sup>New</sup></a>
+      </div>
+
+      <!-- search bar section -->
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon"> search </span>
+        <input
+          class="search_input"
+          placeholder="Search for products, brand and more"
+        />
+      </div>
+
+      <!-- Action Section -->
+      <div class="action_bar">
+        <!-- profile -->
+        <div class="action_container">
+          <i class="fa-regular fa-user action_icon"></i>
+          <span class="icon_name">Profile</span>
         </div>
 
-        <!-- nav section -->
-        <div class="nav_bar">
-            <a href="#">Man</a>
-            <a href="#">Women</a>
-            <a href="#">Kids</a>
-            <a href="#">Home&Living</a>
-            <a href="#">Beauty</a>
-            <a href="#">Studio<sup>New</sup></a>
+        <!-- Wishlist -->
+        <div class="action_container">
+          <i class="fa-regular fa-heart action_icon"></i>
+          <span class="icon_name">Wishlist</span>
         </div>
 
-        <!-- search bar section -->
-        <div class="search_bar">Search</div>
-
-        <!-- Action Section -->
-        <div class="action_bar">Action</div>
+        <!-- Bag -->
+        <div class="action_container">
+          <i class="fa-solid fa-bag-shopping action_icon"></i>
+          <span class="icon_name">Bag</span>
+        </div>
+      </div>
     </header>
     <!-- ending of header -->
 
     <!-- starting of main section -->
     <main>
-        <div class="banner_container">Banner Container</div>
-        <div class="category_heading">Category heading</div><div class="category_items">Items</div>
+      <div class="banner_container"></div>
+      <img class="banner_img" src="img/banner.webp" alt="" />
+
+      <div class="category_heading">medal worthy brand to bag</div>
+
+      <div class="category_items">
+        <a href="#"><img class="sale_item" src="img/categories/img1.jpeg" /></a>
+
+        
     </main>
     <!-- end of main section -->
 
